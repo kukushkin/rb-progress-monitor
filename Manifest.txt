@@ -1,0 +1,8 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+lib/progress-monitor.rb
+spec/progress-monitor_spec.rb
+spec/spec_helper.rb
+test/test_progress-monitor.rb
