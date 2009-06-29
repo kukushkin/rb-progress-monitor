@@ -8,7 +8,7 @@ A tool to measure progress and estimate completion time of the long tasks.
 
 == REQUIREMENTS:
 
-* FIXME (list of requirements)
+Requires 'bones' gem for repackaging.
 
 == INSTALL:
 
