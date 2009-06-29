@@ -3,10 +3,10 @@
 # This class allows to track an overall progress and estimated remaining time for
 # a long task that consists of several stages.
 #
-# On task completion ProgressMonitor can report statistics on overall and by-stage performance.
+# On task completion ProgressMonitor can report statistics on overall and per-stage performance.
 #
 class ProgressMonitor
-  VERSION = '1.0.0'
+  VERSION = '1.0.1'
 
 	attr_accessor :plan, :metrics
 	attr_reader :time_started, :time_finished

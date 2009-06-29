@@ -1,3 +1,7 @@
+== 1.0.1 / 2009-06-29
+
+* Deployed to Github
+
 == 1.0.0 / 2009-01-18
 
 * Moved gem to mr.bones

@@ -4,15 +4,7 @@ progress-monitor
 
 == DESCRIPTION:
 
-A tool to measure and estimate long task completion time.
-
-== FEATURES/PROBLEMS:
-
-* FIXME (list of features or problems)
-
-== SYNOPSIS:
-
-  FIXME (code sample of usage)
+A tool to measure progress and estimate completion time of the long tasks.
 
 == REQUIREMENTS:
 
@@ -20,13 +12,13 @@ A tool to measure and estimate long task completion time.
 
 == INSTALL:
 
-* FIXME (sudo gem install, anything else)
+> sudo gem install progress-monitor
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2008 FIXME (different license?)
+Copyright (c) 2009
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
