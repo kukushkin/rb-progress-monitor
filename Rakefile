@@ -1,30 +1,22 @@
-# Look in the tasks/setup.rb file for the various options that can be
-# configured in this Rakefile. The .rake files in the tasks directory
-# are where the options are used.
 
 begin
   require 'bones'
-  Bones.setup
 rescue LoadError
-  begin
-    load 'tasks/setup.rb'
-  rescue LoadError
-    raise RuntimeError, '### please install the "bones" gem ###'
-  end
+  abort '### Please install the "bones" gem ###'
 end
 
 ensure_in_path 'lib'
 require 'progress-monitor'
 
-task :default => 'spec:run'
+task :default => 'test:run'
+task 'gem:release' => 'test:run'
 
-PROJ.name = 'progress-monitor'
-PROJ.authors = 'Alex Kukushkin'
-PROJ.email = 'alex@neq4.com'
-PROJ.url = 'http://neq4.com'
-PROJ.version = ProgressMonitor::VERSION
-PROJ.rubyforge.name = 'progress-monitor'
-
-PROJ.spec.opts << '--color'
+Bones {
+  name  'progress-monitor'
+  authors  'Alex Kukushkin'
+  email  'alex@neq4.com'
+  url  'http://neq4.com'
+  version  ProgressMonitor::VERSION
+}
 
 # EOF

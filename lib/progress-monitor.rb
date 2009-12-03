@@ -65,7 +65,7 @@
 # == What else?
 #
 # After the task completion you can get the data on how well each stage performed:
-#
+#   pp p.stats 
 #
 # Remember, the more correct the metrics are, the more close are the estimated times 
 # and the progress.
